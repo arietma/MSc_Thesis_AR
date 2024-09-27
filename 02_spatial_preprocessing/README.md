@@ -1,12 +1,12 @@
 # Spatial preprocessing
 First, the scripts in the subfolder ```preparation``` should be run. Then, the scripts in the current repository ```02_spatial_preprocessing```. These scripts use the functions in the subfolder ```functions_spatpreproc```. After this, the scripts in ```reclassify_and_clean_datasets``` finalize preprocessing of the data.
 
-### Subfolder: preparation
+### Subfolder: ```preparation```
 The ```read_modis``` script adds all downloaded MODIS files to one large .tiff file for NDVI values, and one for EVI values.
 
 The ```structure_OWASIS_files``` script ensures that the OWASIS files are organized in the correct folders for running the scripts in ```02_spatial_preprocessing```.
 
-### Subfolder: functions_spatpreproc
+### Subfolder: ```functions_spatpreproc```
 These functions are used by the scripts in ```02_spatial_preprocessing```.
 
 The function ```importMaps``` imports all maps with the spatial and spatiotemporal variables.
@@ -28,7 +28,7 @@ These sorted datasets are the input data for ```fp_twr_ruimtdata_hpc``` and ```f
 
 Again, after running these scripts, ```datasets_sortrows``` should be run to sort the rows.
 
-### Subfolder: reclassify_and_clean_datasets
+### Subfolder: ```reclassify_and_clean_datasets```
 First, the ```reclassify_LGN``` script reclassifies the land use classes.
 
 Next, the ```relcassify_soil``` script reclassifies the soil classes. After running these scripts, the datasets are preprocessed and reclassified. 
