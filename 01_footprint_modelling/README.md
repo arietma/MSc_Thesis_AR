@@ -5,7 +5,7 @@ First, the ```loading_tower_data_calc_Tsfc``` script loads the raw tower data, c
 
 ```ffp_airborne``` and ```ffp_tower``` produce footprints for every observation for the airborne and tower dataset respectively. The footprints are stored as .nc files.
 
-### Subfolder: functions_kljun
+### Subfolder: ```functions_kljun```
 The functions made by Kljun et al. (2015) ```calc_footprint_FFP``` and ```calc_footprint_FFP_climatology```, which are used in the ```ffp_airborne``` and ```ffp_tower``` scripts in the repository ```01_footprint_modelling```.
 
 ### Reference
