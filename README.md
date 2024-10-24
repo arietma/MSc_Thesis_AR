@@ -5,7 +5,9 @@ Master Thesis Water Systems and Global Change Group in partial fulfillment of th
 
 Supervisors: dr. R.W.A. Hutjes and dr. B. Kruijt
 
-### Scripts
+### Datasets and scripts
+
+The airborne and tower datasets used in these scripts were provided by the WUR and NOBV, with the airborne dataset's version dated 01-05-2023, and the tower dataset's version dated 12-05-2023.
 
 The methodology and scripts are largely based on the MSc Thesis by L. van der Poel, published in Hutjes et al. (2023). These scripts can be publicly found here: https://github.com/lvdpoel/MSc_thesis. In my scripts, I have clearly documented the modifications I made and specified the original author of each script. 
 
